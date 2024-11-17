@@ -1,0 +1,43 @@
+@media(max-width: 600px) {
+    .cartao {
+        margin: 30px;
+    }
+
+    .linguagens-programacao li img {
+        height: 50px;
+        width: 50px;
+        transform: translate(19rem, -140px);
+    }
+
+    .descricao {
+        margin-left: 29px;
+    }
+
+    .aviso {
+        margin-left: 29px;
+    }
+}
+
+
+@media(max-width: 600px) {
+
+    .linguagens-programacao {
+        flex-direction: column;
+        transform: translate(-130px, -10px);
+    }
+
+    .apresentacao .introducao {
+        font-family: "Roboto", sans-serif;
+        margin-top: -240px;
+        margin-bottom: 130px;
+        margin-left: 30px;
+    }
+
+}
+
+@media(max-width: 485px) {
+
+    .linguagens-programacao {
+        transform: translate(-160px, 0px);
+    }
+}
