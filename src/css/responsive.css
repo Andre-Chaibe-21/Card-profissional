@@ -3,41 +3,50 @@
         margin: 30px;
     }
 
-    .linguagens-programacao li img {
-        height: 50px;
-        width: 50px;
-        transform: translate(19rem, -140px);
+    .apresentacao .introducao {
+        text-align: center;
+        margin-top: -70px;
+        margin-bottom: 130px;
+        margin-left: 0px;
     }
-
-    .descricao {
-        margin-left: 29px;
-    }
-
-    .aviso {
-        margin-left: 29px;
-    }
-}
-
-
-@media(max-width: 600px) {
 
     .linguagens-programacao {
         flex-direction: column;
-        transform: translate(-130px, -10px);
     }
 
-    .apresentacao .introducao {
-        font-family: "Roboto", sans-serif;
-        margin-top: -240px;
-        margin-bottom: 130px;
-        margin-left: 30px;
+
+    .linguagens-programacao li img {
+        height: 50px;
+        width: 50px;
+        transform: translateY(-200px);
     }
 
-}
 
-@media(max-width: 485px) {
-
-    .linguagens-programacao {
-        transform: translate(-160px, 0px);
+    .linguagens-programacao li {
+        margin-right: 20px;
     }
+
+    .comeco .linha {
+        display: none;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 39px;
+        margin: 30px;
+        margin-left: 50px;
+    }
+
+    .aviso {   
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        margin: 30px 0px;
+        margin-left: 68px;
+        max-width: 250px;
+    }
+
 }
